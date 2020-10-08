@@ -74,7 +74,7 @@ def turn
 # else
 #   puts "invalid"
 #   turn
-# end
+ end
 end
 
 end #end of class TicTacToe
