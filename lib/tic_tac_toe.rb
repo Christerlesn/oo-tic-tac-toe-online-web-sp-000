@@ -61,6 +61,10 @@ end
 def turn
   i = gets.strip
   input_to_index(i)
+  if valid_move?(i)
+    move(position, letter)
+    display_board
+  else
 # index = input_to_index(user_input)
 # char = current_player
 # if valid_move?(index)
