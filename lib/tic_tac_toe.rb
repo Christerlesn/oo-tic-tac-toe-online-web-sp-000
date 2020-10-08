@@ -1,13 +1,10 @@
 class TicTacToe
 
-def initalize
-board = Array.new(9, " ")
-@board = board
+def initalize(board = nil)
+  @board = board || Array.new(9, " ")
+  end
 end
 
-def board
-  @board
-end
 
 
 end
