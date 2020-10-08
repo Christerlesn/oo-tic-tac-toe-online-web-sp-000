@@ -71,10 +71,9 @@ def turn
 end
 
 def won?
-  if WIN_COMBINATIONS
-    true
-  else
+  if WIN_COMBINATIONS!
     false
+  else true
   end
 end
 end #end of class TicTacToe
