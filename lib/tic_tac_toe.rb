@@ -60,6 +60,7 @@ end
 
 def turn
   i = gets.strip
+  input_to_index(i)
 # index = input_to_index(user_input)
 # char = current_player
 # if valid_move?(index)
