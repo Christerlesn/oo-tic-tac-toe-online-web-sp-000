@@ -28,8 +28,8 @@ def input_to_index(user_input)
   user_input.to_i - 1
 end
 
-def move(position, char)
-  @board[position] = char
+def move(position, letter)
+  @board[position] = letter
 end
 
 def position_taken?(index_i)
@@ -59,11 +59,12 @@ def current_player
 end
 
 def turn
+  puts "Please enter 1-9:"
 input = gets.strip
 index = input_to_index(user_input)
 char = current_player
 if valid_move?(index)
-  move(position, char)
+  move(position, letter)
   display_board
 else
   puts "invalid"
