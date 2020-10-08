@@ -24,5 +24,5 @@ WIN_COMBINATIONS = [
 
 
 
-  
+
 end
