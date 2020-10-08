@@ -62,18 +62,11 @@ def turn
   i = gets.strip
   input_to_index(i)
   current_player
-  if valid_move?(i)
+  if valid_move?(index)
     move(position, letter)
     display_board
   else
     turn
-# char = current_player
-# if valid_move?(index)
-#   move(position, letter)
-#   display_board
-# else
-#   puts "invalid"
-#   turn
  end
 end
 
