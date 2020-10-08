@@ -28,13 +28,15 @@ def input_to_index(user_input)
   user_input.to_i - 1
 end
 
-
-
-
-
-
-
-
-
-
+def move(position, char)
+  @board[position] = char
 end
+
+
+
+
+
+
+
+
+end #end of class TicTacToe
