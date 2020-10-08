@@ -59,7 +59,7 @@ def current_player
 end
 
 def turn
-  gets.strip
+  gets.strip = input
   input_to_index(user_input)
   valid_move?(index)
   current-player
