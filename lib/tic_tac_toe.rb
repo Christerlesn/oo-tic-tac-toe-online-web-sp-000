@@ -15,7 +15,7 @@ WIN_COMBINATIONS = [
 [0,4,8], #across right
 [2,4,6] #across left
 ]
-binding.pry
+#binding.pry
 def display_board
 puts "#{@board[0]} | #{@board[1]} | #{@board[2]}"
 puts "-----------"
