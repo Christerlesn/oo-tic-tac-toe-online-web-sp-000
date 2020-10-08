@@ -45,12 +45,12 @@ def valid_move?(index)
 end
 
 def turn_count
-  turn_number = 0
+  count = 0
   @board.each do |space|
     if space == "X" || space == "O"
-      turn_number += 1
+      count += 1
     end
-  turn_number
+  return count
   end
 end
 
