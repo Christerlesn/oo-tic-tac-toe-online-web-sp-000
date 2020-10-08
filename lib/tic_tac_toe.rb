@@ -37,6 +37,7 @@ def position_taken?(index_i)
     true
   else
     false
+  end
 end
 
 
