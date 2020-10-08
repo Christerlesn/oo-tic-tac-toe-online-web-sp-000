@@ -34,7 +34,6 @@ end
 
 def position_taken?(index_i)
  ? @board[index_i] == "X" || "O" : nil
-  end
 end
 
 
