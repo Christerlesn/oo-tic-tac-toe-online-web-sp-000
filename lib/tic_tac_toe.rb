@@ -32,8 +32,8 @@ def move(position, char)
   @board[position] = char
 end
 
-def position_taken?(index)
-  if @board[index] = "X" || "O"
+def position_taken?(index_i)
+  if @board[index_i] == "X" || @board[index_i] == "O"
     true
   else
     false
