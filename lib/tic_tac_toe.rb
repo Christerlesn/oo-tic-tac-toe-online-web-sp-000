@@ -66,6 +66,7 @@ if valid_move?(index)
   move(position, char)
   display_board
 else
+  puts "invalid"
   turn
 end
 end
