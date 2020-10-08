@@ -33,10 +33,7 @@ def move(position, char)
 end
 
 def position_taken?(index_i)
-  if @board[index_i] == "X" || @board[index_i] == "O"
-    true
-  else
-    false
+ ? @board[index_i] == "X" || == "O" : false
   end
 end
 
