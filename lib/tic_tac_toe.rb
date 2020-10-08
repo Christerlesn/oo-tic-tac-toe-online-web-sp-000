@@ -76,5 +76,5 @@ def won?
   else
     false
   end
-
+end
 end #end of class TicTacToe
