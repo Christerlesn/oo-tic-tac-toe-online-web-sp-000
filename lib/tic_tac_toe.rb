@@ -65,6 +65,7 @@ def turn
     move(position, letter)
     display_board
   else
+    turn
 # index = input_to_index(user_input)
 # char = current_player
 # if valid_move?(index)
