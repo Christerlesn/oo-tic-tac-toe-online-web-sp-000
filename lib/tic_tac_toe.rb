@@ -50,8 +50,8 @@ def turn_count
     if space == "X" || space == "O"
       turn_number += 1
     end
-    turn_number
 end
+turn_number
 
 
 
